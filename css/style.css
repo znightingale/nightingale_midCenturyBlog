@@ -1,0 +1,178 @@
+/* remember that style sheets cascade, so whatever is on the bottom will override whats on top. Don't have multiple statements for the same element. Organization and hierarchy are key, start with larger elements and work your way down.
+
+Do they best you can with this, talk with each other and help each other. Most colors and fonts are provided for you. Use adobe color to find the other colors from the sample image.*/
+
+* {
+  padding: 0px;
+  border: 0px;
+  margin: 0px;
+}
+
+.lato-regular {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .josefin-sans-regular {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  nav {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+  }
+
+  .nav {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: #047F8C;
+    padding-right: 65px;
+    padding-left: 65px;
+  }
+
+  .imgSmall {
+    width: 200px;
+  }
+
+  .imgBig {
+    width: 750px;
+  }
+
+#firstPic {
+  margin-left: 35px;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 0px;
+}
+
+h1 a {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 37px;
+  text-decoration: none;
+  color: #3A400C;
+}
+
+h2 {
+  padding-top: 0px;
+  padding-bottom: 25px;
+}
+
+h3 {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+img {
+  padding-bottom: 25px;
+}
+
+p {
+  padding-bottom: 25px;
+}
+
+.wrap {
+  border-top: none;
+  border-left: solid;
+  border-right: solid;
+  border-color: rgb(246, 162, 83);
+  border-width: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: rgb(207, 236, 255);
+}
+
+.inset {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.latoSmall {
+  font-family: 'lato', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.latoBig {
+  font-family: 'lato', sans-serif;
+  font-weight: 700;
+  font-size: 22.5px;
+}
+
+.josefinSub {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #047F8C;
+}
+
+.bullets {
+  text-decoration: none;
+}
+
+ul {
+  margin-left: 70px;
+  padding-bottom: 25px;
+}
+
+ul a {
+  font-family:  'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+
+footer {
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: none;
+  border-left: solid;
+  border-right: solid;
+  border-color: rgb(246, 162, 83);
+  border-width: 150px;
+  margin-left: 160px;
+  margin-right: 160px;
+  background-color: #04ADBF
+}
+
+.socials {
+  font-family:  'Josefin Sans', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #3A400C;
+  text-decoration: none;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 50px;
+}
+
+hr {
+  color: white;
+}
+
+.name {
+  font-family: 'lato', sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #3A400C;
+}
+
+footer p {
+  font-family: 'lato', sans-serif;
+  font-weight: 400px;
+  font-size: 15px;
+  text-decoration: none;
+  color: #3A400C;
+}
